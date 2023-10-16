@@ -1,0 +1,22 @@
+Test Output:
+============================= test session starts =============================
+platform win32 -- Python 3.11.0, pytest-7.3.2, pluggy-1.0.0 -- c:\users\heres\appdata\local\programs\python\python311\python.exe
+cachedir: .pytest_cache
+rootdir: D:\GitHub Repositories\leetcode_solutions
+plugins: cov-4.1.0, django-4.5.2
+collecting ... collected 22 items / 13 deselected / 9 selected
+
+tests/test_solutions.py::test_solution[add_two_numbers-add_lists.py-medium] PASSED [ 11%]
+tests/test_solutions.py::test_solution[add_two_numbers-iterative.py-medium] PASSED [ 22%]
+tests/test_solutions.py::test_solution[add_two_numbers-reverse_list.py-medium] PASSED [ 33%]
+tests/test_solutions.py::test_solution[longest_substring_without_repeating_characters-brute_force.py-medium] PASSED [ 44%]
+tests/test_solutions.py::test_solution[longest_substring_without_repeating_characters-dynamic_sliding_window.py-medium] PASSED [ 55%]
+tests/test_solutions.py::test_solution[longest_substring_without_repeating_characters-hashset.py-medium] PASSED [ 66%]
+tests/test_solutions.py::test_solution[longest_substring_without_repeating_characters-list_for_character_indexes.py-medium] PASSED [ 77%]
+tests/test_solutions.py::test_solution[longest_substring_without_repeating_characters-queue.py-medium] PASSED [ 88%]
+tests/test_solutions.py::test_solution[longest_substring_without_repeating_characters-two_pointers.py-medium] PASSED [100%]
+
+====================== 9 passed, 13 deselected in 0.04s =======================
+
+
+Error Output:

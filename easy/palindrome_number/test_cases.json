@@ -1,0 +1,23 @@
+{
+    "func": "isPalindrome",
+    "tests": {
+        "1": {
+            "input": {
+                "x": 121
+            },
+            "expected": true
+        },
+        "2": {
+            "input": {
+                "x": -121
+            },
+            "expected": false
+        },
+        "3": {
+            "input": {
+                "x": 10
+            },
+            "expected": false
+        }
+    }
+}

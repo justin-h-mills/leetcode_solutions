@@ -1,0 +1,33 @@
+{
+    "func": "isMatch",
+    "tests": {
+        "1": {
+            "input":{
+                "s": "aa",
+                "p": "a"
+            },
+            "expected": false
+        },
+        "2": {
+            "input":{
+                "s": "aa",
+                "p": "a*"
+            },
+            "expected": true
+        },
+        "3": {
+            "input":{
+                "s": "ab",
+                "p": ".*"
+            },
+            "expected": true
+        },
+        "4": {
+            "input":{
+                "s": "abc",
+                "p": "a***abc"
+            },
+            "expected": true
+        }
+    }
+}
